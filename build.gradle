@@ -2,8 +2,6 @@ plugins {
     id 'java'
 }
 
-group 'michael_mario_kubicki'
-
 sourceCompatibility = 1.8
 
 repositories {

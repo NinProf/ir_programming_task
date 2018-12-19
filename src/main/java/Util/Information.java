@@ -57,7 +57,7 @@ public class Information {
         //Check for help flag
         if (Arg.contains("-h")) {
             System.out.println("USAGE: ");
-            System.out.println("ir_programming_task.jar [path_to_document_folder] [path_to_index_folder] [VS/OK] [\"query\"] [optional: path_to_settings.xml]");
+            System.out.println("IR_P.jar [path_to_document_folder] [path_to_index_folder] [VS/OK] [\"query\"] [optional: path_to_settings.xml]");
             System.exit(0);
         }
         //Check for verbose flag
@@ -138,7 +138,7 @@ public class Information {
      */
     private static void errorUsage() {
         System.out.println("Wrong usage:");
-        System.out.println("ir_programming_task.jar [path_to_document_folder] [path_to_index_folder] [VS/OK] [query] [optional: path_to_settings.xml]");
+        System.out.println("IR_P.jar [path_to_document_folder] [path_to_index_folder] [VS/OK] [query] [optional: path_to_settings.xml]");
         System.out.println("or ir_programming_task.jar -h for more information");
         System.exit(-1);
     }

@@ -21,3 +21,9 @@ jobs:
         architecture: x64
     - name: Build with Gradle
       run: ./gradlew jar
+
+    - name: Upload artifact
+      uses: actions/upload-artifact@v2
+      with:
+        name: IR_P.jar
+        path: ./build/libs/IR_P.jar

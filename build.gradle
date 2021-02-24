@@ -12,7 +12,7 @@ dependencies {
     // Lucene
     compile group: 'org.apache.lucene', name: 'lucene-core', version: '8.8.1'
     compile group: 'org.apache.lucene', name: 'lucene-analyzers-common', version: '8.8.1'
-    compile group: 'org.apache.lucene', name: 'lucene-codecs', version: '8.8.0'
+    compile group: 'org.apache.lucene', name: 'lucene-codecs', version: '8.8.1'
     compile group: 'org.apache.lucene', name: 'lucene-queryparser', version: '8.8.1'
     //Jsoup
     compile 'org.jsoup:jsoup:1.13.1'
